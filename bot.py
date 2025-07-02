@@ -3,7 +3,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = "YOUR_BOT_TOKEN_HERE"  # <-- এখানে তোমার বট টোকেন বসাও
+TOKEN = "7889212922:AAEJbzIT6KQrchZWnqahsBPC5rPpmAv7J2Q"  # <-- এখানে তোমার বট টোকেন বসাও
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
